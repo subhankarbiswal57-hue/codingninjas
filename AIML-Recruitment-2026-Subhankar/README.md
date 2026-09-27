@@ -1,4 +1,4 @@
-# AIML Recruitment 2026 — Subhankar
+
 
 ## Candidate Details
 - **Name:** Subhankar
