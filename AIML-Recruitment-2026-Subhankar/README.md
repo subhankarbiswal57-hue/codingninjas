@@ -30,9 +30,10 @@ and analyse how changing a hyperparameter affects performance.
 - scikit-learn
 
 ## Results
-- Baseline model test accuracy: see `results/metrics.json` and notebook output.
-- Confusion matrix shows most confusion between visually similar digits (e.g. 4/9, 3/5).
-- Experiment (modified hidden layer size) results and comparison are shown in the notebook and `results/experiment_comparison.png`.
+- **Baseline Model (128-64):** Test Accuracy: **97.28%**, Test Loss: **0.1175** (details in `results/metrics.json` and notebook output).
+- **Modified Model (32-16):** Test Accuracy: **96.48%**, Test Loss: **0.1220**.
+- **Confusion Matrix:** Most confusion observed between visually similar handwritten digits (e.g. 4/9, 3/5, 7/1).
+- **Experiment:** Compared baseline vs smaller model capacity in `results/experiment_comparison.png`, showing how parameter count influences generalization gap and representation capacity.
 
 ## Key Learnings
 1. Normalizing input data significantly stabilizes and speeds up neural network training.
